@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [doc]
+    branches: 
+      - main
 
 jobs:
   deploy-to-pages:
@@ -48,7 +49,6 @@ jobs:
         run: |
           cd docs
           make html
-          sphinx-build -D language=en -b html ./ _build/html/en
 
       # remove the .doctrees folder when building for deployment as it takes two thirds of disk space
       - name: 🔥 Clean up files
