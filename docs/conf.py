@@ -173,7 +173,6 @@ html_sidebars = {
 extra_navbar = """<div>
 版权所有 © 2021 <a href="https://xinetzone.github.io/">xinetzone</a></div>
 <div>由 <a href="https://ebp.jupyterbook.org/">EBP</a> 提供技术支持</div>
-<div>语言切换<a href="/deep-learning/">中</a>/<a href="/deep-learning/en">英</a></div>
 """
 
 html_theme_options = {
